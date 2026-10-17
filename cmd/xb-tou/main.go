@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"openpak/xb-live/internal/xbfeature"
-	"openpak/xb-live/services/xb-tou/internal/content"
-	"openpak/xb-live/services/xb-tou/internal/tou"
+	"github.com/openpak/xb-common/xbfeature"
+	"github.com/openpak/xb-tou/internal/content"
+	"github.com/openpak/xb-tou/internal/tou"
 )
 
 func required(name string) string {

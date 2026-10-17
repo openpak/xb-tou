@@ -10,9 +10,9 @@ import (
 	"testing"
 	"unicode/utf16"
 
-	"openpak/xb-live/internal/xbfeature"
-	"openpak/xb-live/services/xb-tou/internal/inx"
-	"openpak/xb-live/services/xb-tou/internal/tou"
+	"github.com/openpak/xb-common/xbfeature"
+	"github.com/openpak/xb-tou/internal/inx"
+	"github.com/openpak/xb-tou/internal/tou"
 )
 
 type conn struct {

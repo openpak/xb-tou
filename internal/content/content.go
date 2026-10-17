@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"openpak/xb-live/services/xb-tou/internal/inx"
+	"github.com/openpak/xb-tou/internal/inx"
 )
 
 // Country is one country OpenPak accounts can be created in.

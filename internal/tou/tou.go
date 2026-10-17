@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"openpak/xb-live/internal/xbfeature"
+	"github.com/openpak/xb-common/xbfeature"
 )
 
 const maxFile = 4 << 20

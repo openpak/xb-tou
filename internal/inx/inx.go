@@ -4,7 +4,7 @@
 // files (CountryMaster2.INX, CountryInfo2.INX). The format is a UTF-16LE,
 // byte-order-marked, INI-like text: "[Section]" lines and ID="value" lines.
 // The grammar, limits and field meanings are the facts recorded in
-// docs/xbox/inx-format.md (observed from the dashboard's own behaviour);
+// internal research notes (observed from the dashboard's own behaviour);
 // this package is an independent implementation of that description.
 package inx
 

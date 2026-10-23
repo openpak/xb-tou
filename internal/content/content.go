@@ -3,7 +3,7 @@
 // Package content generates the OpenPak-authored country and legal files the
 // dashboard asks service 11 for. Nothing here is copied from Microsoft or any
 // other operator; the texts describe OpenPak. File structure follows
-// docs/xbox/inx-format.md.
+// internal research notes.
 package content
 
 import (

@@ -11,8 +11,7 @@ preserved. Shared packages (crypto, Kerberos structures, contracts) live in
 https://github.com/openpak/xb-common, see its NOTICE.
 
 Xombie-derived code in this repository (audit 2026-10-17):
-  none found in the audit: written for OpenPak (INX content format from docs/xbox/inx-format.md, observed from the dashboard).
+  none found in the audit: written for OpenPak (INX content format from internal research notes, observed from the dashboard).
 
 No Insignia, leaked Microsoft source or other third-party proprietary material
-was used. Protocol behaviour is documented in https://github.com/openpak/docs
-(xbox/). The legacy Rust workspace stays in openpak/xbox-live for reference.
+was used. Protocol behaviour is documented in OpenPak's internal research notes. The legacy Rust workspace stays in openpak/xbox-live for reference.

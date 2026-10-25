@@ -1,0 +1,3 @@
+# Protocol: xb-tou
+
+Original Xbox Terms of Use / country-info service (gateway service id 11, plain HTTP/1.1 over the xbfeature stream, mTLS peer must be `spiffe://openpak/xb-gateway`). Serves `/Country/<Region>/CountryMaster2.INX`, `/<CC>/CountryInfo2.INX` and `/<CC>/TermsOfUse.ini` from operator files (`XB_TOU_CONTENT_DIR`) and an OpenPak-authored built-in set (`XB_TOU_BUILTIN_COUNTRIES`); everything else is 404. Format: workspace docs `xbox/inx-format.md`. Configuration: `deploy/xb-tou.env.example`. It has no HTTP health endpoint (the gRPC listener is the liveness signal; the quadlet has no HealthCmd).

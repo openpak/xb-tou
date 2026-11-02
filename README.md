@@ -34,7 +34,7 @@ podman build --secret id=netrc,src=$HOME/.netrc -t ghcr.io/openpak/xb-tou:dev .
 
 - [Protocol](docs/protocol.md)
 - [Deploy](docs/deploy.md)
-- [Notes](docs/notes.md)
+- [Provenance](docs/provenance.md)
 
 ## Licence
 
